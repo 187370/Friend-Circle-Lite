@@ -9,9 +9,9 @@
 spider_settings:
   enable: true
   json_url: "https://pku-cs-cjw.top/friend.json"
-  article_count: 5
+  article_count: 10
   merge_result:
-    enable: true
+    enable: false
     merge_json_url: "https://pku-cs-cjw.top/Friend-Circle-Lite"
 
 # 邮箱推送功能配置，暂未实现，等待后续开发
@@ -21,7 +21,7 @@ spider_settings:
 #   subject:            邮件主题
 #   body_template:      邮件正文的 HTML 模板文件
 email_push:
-  enable: true
+  enable: false
   to_email: recipient@example.com
   subject: "今天的 RSS 订阅更新"
   body_template: "rss_template.html"
