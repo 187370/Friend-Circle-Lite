@@ -12,7 +12,7 @@ spider_settings:
   article_count: 5
   merge_result:
     enable: false
-    merge_json_url: "https://cjw-cs-pku.fun"
+    merge_json_url: "https://pku-cs-cjw.top/Friend-Circle-Lite"
 
 # 邮箱推送功能配置，暂未实现，等待后续开发
 # 解释：每天为指定邮箱推送所有友链文章的更新，仅能指定一个
@@ -49,7 +49,7 @@ smtp:
   email: 2715768122@qq.com
   server: smtp.qq.com
   port: 587
-  use_tls: true
+  use_tls: false
 
 # 特殊RSS地址指定
 # 解释：用于指定特殊RSS地址，如B站专栏等不常见RSS地址后缀，可以添加多个
