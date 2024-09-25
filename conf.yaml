@@ -34,7 +34,7 @@ email_push:
 #   your_blog_url:      你的博客地址
 rss_subscribe:
   enable: true
-  github_username: 187370
+  github_username: "187370"
   github_repo: Friend-Circle-Lite
   your_blog_url: https://pku-cs-cjw.top/
   email_template: "./rss_subscribe/email_template.html"
