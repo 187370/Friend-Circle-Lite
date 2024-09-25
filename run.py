@@ -81,7 +81,7 @@ if config["rss_subscribe"]["enable"]:
                 smtp_server=server,
                 port=port,
                 password=password,
-                subject="清羽飞扬の最新文章：" + article["title"],
+                subject="C+Vの最新文章：" + article["title"],
                 body="文章链接：" + article["link"] + "\n" + "文章内容：" + article["summary"] + "\n" + "发布时间：" + article["published"],
                 template_path=email_template,
                 template_data=template_data,
