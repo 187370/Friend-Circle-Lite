@@ -1,8 +1,8 @@
 name: Friend Circle Lite
 
 on:
-  schedule:
-    - cron: "0 */4 * * *"
+  # The academic homepage no longer publishes the legacy friend.json feed.
+  # Keep manual runs available, but stop scheduled legacy-blog updates.
   workflow_dispatch:
 
 env:
